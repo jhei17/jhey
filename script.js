@@ -72,6 +72,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta() {
   perguntaAtual = perguntas[atual];
@@ -95,14 +96,7 @@ function respostaSelecionada(opcaoSelecionada) {
   atual++;
   mostraPergunta();
 }
-function respostaSelecionada(opcaoSelecionada) {
-  const afirmacoes = opcaoSelecionada.afirmacoes;
-  atual++;
-  mostraPergunta();
-}
-let atual = 0;
-let perguntaAtual;
-let historiaFinal = "";
+
 function respostaSelecionada(opcaoSelecionada) {
   const afirmacoes = opcaoSelecionada.afirmacoes;
   historiaFinal += afirmacoes + " ";
@@ -123,5 +117,5 @@ function mostraResultado() {
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
 }
-let historiaFinal = "";
+
 }
