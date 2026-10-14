@@ -6,17 +6,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
   const pergunta2 = "Pergunta 2";
   const perguntas = ["Pergunta 1", "Pergunta 2"];
 
-  const perguntas = [
-  {
-  enunciado: "Pergunta 1",
-  alternativas: ["Alternativa 1", "Alternativa 2"],
-  },
-  {
-  enunciado: "Pergunta 2",
-  alternativas: ["Alternativa 1", "Alternativa 2"],
-  },
-  ];
-
+ 
   const perguntas = [
   {
   enunciado:
@@ -119,3 +109,15 @@ function mostraResultado() {
 }
 
 }
+// Trecho ilustrativo do arquivo script.js
+enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia...",
+alternativas: [
+  {
+    texto: "Isso é assustador!",
+    afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+  },
+  {
+    texto: "Isso é maravilhoso!",
+    afirmacao: "Quis saber como usar IA no seu dia a dia."
+  }
+]
