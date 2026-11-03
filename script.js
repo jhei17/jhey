@@ -4,11 +4,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado: `Sofia está conversando com uma IA!`,
+    enunciado: `Certo dia, Sofia estava estudando sobre tecnologias quando decidiu conversar com uma Inteligência Artificial para descobrir mais sobre essa novidade.`,
     alternativas: [
       {
-        texto: "Isso é assustador!",
-        afirmacao: "No início, ficou com medo do que essa tecnologia pode fazer."
+        texto: IA: "Olá, Sofia! Sobre o que você gostaria de aprender?",
+        afirmacao: Sofia: "quero saber mais sobre você!"
       },
       {
         texto: "Isso é maravilhoso!",
