@@ -7,8 +7,8 @@ const perguntas = [
     enunciado: `Certo dia, Sofia estava estudando sobre tecnologias quando decidiu conversar com uma Inteligência Artificial para descobrir mais sobre essa novidade.`,
     alternativas: [
       {
-        texto: IA: "Olá, Sofia! Sobre o que você gostaria de aprender?",
-        afirmacao: Sofia: "quero saber mais sobre você!"
+        texto: 'IA:  Olá, Sofia! Sobre o que você gostaria de aprender?',
+        afirmacao: "Sofia: quero saber mais sobre você!"
       },
       {
         texto: "Isso é maravilhoso!",
